@@ -19,6 +19,6 @@
 <img src="Img/1.png" width=700>
 <img src="Img/2.png" width=700>
 
->   [FireController.cs - 화재가 번지게 하는 스크립트](FireController.cs)
->   [PersonMove.cs - NavMesh를 이용하여 사람이 길을 찾게하는 스크립트](PersonMove.cs)
->   [PersonRayCast.cs - 사람을 기준으로 Ray를 쏘아 불을 감지하는 스크립트](PersonRayCast.cs)
+>   [FireController.cs - 화재가 번지게 하는 스크립트](FireController.cs) <br> 
+>   [PersonMove.cs - NavMesh를 이용하여 사람이 길을 찾게하는 스크립트](PersonMove.cs)<br>  
+>   [PersonRayCast.cs - 사람을 기준으로 Ray를 쏘아 불을 감지하는 스크립트](PersonRayCast.cs)<br>  
