@@ -6,7 +6,7 @@
 (불이 퍼질 방향, 사람 밀집도에 따른 이동속도 등의 데이터 분석)   <br><br>
 -	문제점 : 학습을 위한 데이터 셋 부족. 데이터를 얻을 수 있는 방법이 있다면 고려해본다.
 
-<img src="Img/5.png" width=700>
+<img src="Img/5.PNG" width=700>
 ## 업무 분담
 -	시뮬레이션을 해보기 위해 유니티로 화재상황 구현.
 -	길찾기 알고리즘을 조사 및 분석실시.
@@ -19,8 +19,8 @@
 
 <img src="Img/1.png" width=700>
 <img src="Img/2.png" width=700>
-<img src="Img/3.png" width=700>
-<img src="Img/4.png" width=700>
+<img src="Img/3.PNG" width=700>
+<img src="Img/4.PNG" width=700>
 
 
 >   [FireSpreadController.cs - 화재가 번지게 하는 스크립트](FireSpreadController.cs) <br>   
