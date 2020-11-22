@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PersonMove : MonoBehaviour
 {
-    public PersonRayCast PersonRayCastScrips;
-    private float dist_threshold = 6.0f;
+    private PersonRayCast PersonRayCastScrips;
+    private ScoreController scoreController;
+    public GameObject EventSystem;
+    public float dist_threshold = 6.0f;
     private float dist;
     private Animator animator;
 
@@ -24,6 +26,7 @@ public class PersonMove : MonoBehaviour
     {
         PersonRayCastScrips = this.gameObject.GetComponent<PersonRayCast>();
         animator = this.gameObject.GetComponent<Animator>();
+        scoreController = EventSystem.GetComponent<ScoreController>();
 
         if (target == null) target = GameObject.Find("Target");
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -47,6 +50,7 @@ public class PersonMove : MonoBehaviour
         {
             Debug.Log("Arrived!");
             animator.SetBool("run", false);
+            scoreController.arrived += 1;
         }
         else //target이 멀리있을 때
         {

@@ -6,6 +6,7 @@
 (불이 퍼질 방향, 사람 밀집도에 따른 이동속도 등의 데이터 분석)   <br><br>
 -	문제점 : 학습을 위한 데이터 셋 부족. 데이터를 얻을 수 있는 방법이 있다면 고려해본다.
 
+<img src="Img/5.png" width=700>
 ## 업무 분담
 -	시뮬레이션을 해보기 위해 유니티로 화재상황 구현.
 -	길찾기 알고리즘을 조사 및 분석실시.
@@ -18,7 +19,13 @@
 
 <img src="Img/1.png" width=700>
 <img src="Img/2.png" width=700>
+<img src="Img/3.png" width=700>
+<img src="Img/4.png" width=700>
 
->   [FireController.cs - 화재가 번지게 하는 스크립트](FireController.cs) <br>   
+
+>   [FireSpreadController.cs - 화재가 번지게 하는 스크립트](FireSpreadController.cs) <br>   
+>   [FireController.cs - 화재 초기 생성 스크립트](FireController.cs) <br>   
+>   [ScoreController.cs - UI 제어 스크립트](ScoreController.cs) <br>   
+>   [ScoreController.cs - C# - Python제어 스크립트](PythonController.cs) <br>   
 >   [PersonMove.cs - NavMesh를 이용하여 사람이 길을 찾게하는 스크립트](PersonMove.cs)<br>  
 >   [PersonRayCast.cs - 사람을 기준으로 Ray를 쏘아 불을 감지하는 스크립트](PersonRayCast.cs)<br>   
