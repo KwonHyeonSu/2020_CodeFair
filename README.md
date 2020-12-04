@@ -1,3 +1,19 @@
+# 2020.11.27.(금) 코드페어 2회 **최우수상** 수상
+<img src="Img/20201203174001119.jpg">
+
+
+1. 일시 : 2020년 11월 27일 (금)
+
+2. 장소 : 경북대학교 IT융복합관 345호
+
+3. 참여 팀 : 오마이돌핀팀
+
+4. 지원 주제 : 화재대피시스템
+
+5. 참여 학생 : 노유진, 백지원, 김도균, 권현수, 이진우, 윤동준, 박재성
+
+6. 주최 및 주관 : 소프트웨어교육센터, PRIME사업단, IT대학 학술동아리 해달 
+
 ## 2020_CodeFair (화재 대피 시스템)
 
 >   내용 : 다익스트라 알고리즘을 기반으로 하여 건물 내의 화재 대피 시스템 구현.
@@ -16,7 +32,7 @@
 - SketchUp 프로그램으로 건물 기초 작업 실시
 <img src="Img/sketchup_building.png" width=700>
 
-<img src="Img/5.png" width=700>
+<img src="Img/5.PNG" width=700>
 ## 업무 분담
 -	시뮬레이션을 해보기 위해 유니티로 화재상황 구현.
 -	길찾기 알고리즘을 조사 및 분석실시.
@@ -29,8 +45,8 @@
 
 <img src="Img/1.png" width=700>
 <img src="Img/2.png" width=700>
-<img src="Img/3.png" width=700>
-<img src="Img/4.png" width=700>
+<img src="Img/3.PNG" width=700>
+<img src="Img/4.PNG" width=700>
 
 
 >   [FireSpreadController.cs - 화재가 번지게 하는 스크립트](FireSpreadController.cs) <br>   
